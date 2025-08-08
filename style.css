@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+/* <!-- Tabs Component part start here  --> */
+.componante{
+    height:50vh;
+    padding: 0px 30px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #ccc;
+}
+
+.tab {
+    padding: 12px 20px;
+    background-color: #eee;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.tab.active {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-bottom: none;
+}
+
+.tab-content {
+    border: 2px solid #ccc;
+    border-top: none;
+    padding: 20px;
+    background-color: white;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+/* <!-- Tabs Component part start here  --> */
+
+
+/* <!-- accordion part start here  --> */
+.accordion {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+
+.accordion-header {
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #eee;
+    transition: 0.3s;
+}
+
+.accordion-header:hover {
+    background: #ddd;
+}
+
+.accordion-content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease, padding 0.3s ease;
+}
+
+.accordion-content.open {
+    padding: 15px 20px;
+    max-height: 200px;
+}
+
+/* <!-- accordion part start here  --> */
+
+
+
+/* <!-- Digital Clock part start here  --> */
+.digitalClocks{
+    margin-top: 200px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.digitalClock{
+    color: white;
+}
+
+.clock {
+    font-size: 60px;
+    background: #333;
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* <!-- Digital Clock part start here  --> */
+
+.examine{
+    text-align: center;
+    width: max-content;
+    padding:5px 30px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
